@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> Infrastructure vehicle</a>
+
+   
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- side-bar section starts -->
+
+<div class="side-bar">
+
+    <div id="close-side-bar" class="fas fa-times"></div>
+
+    <div class="user">
+        <img src="./images/pic-3.png" alt="">
+        <h3>user</h3>
+        <a href="#">log out</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html">  home </a>
+        <a href="about.html">  about </a>
+       
+        <a href="contact.html">  call now</a>
+        <a href="login.html">  login </a>
+        <a href="register.html">  register </a>
+        
+    </nav>
+
+</div>
+
+<!-- side-bar section ends -->
+
+<!-- contact info section starts  -->
+
+<section class="info-container">
+
+    <div class="box-container">
+
+        <div class="location">
+            <small>enter the location</small>
+            <input type="text" name="map" id="">
+        
+            <div class="map" id="map_data">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594417.4323380818!2d81.88604589184851!3d28.38383403028347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995e8c77d2e68cf%3A0x34a29abcd0cc86de!2sNepal!5e0!3m2!1sen!2snp!4v1649915660901!5m2!1sen!2snp"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="./images/damaged.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <i class="fas fa-upload"></i>
+                </div>
+                <div class="text">
+                    No file chosen, yet!
+                </div>
+            </div>
+            <div id="cancel-btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="file-name">
+                File name here
+            </div>
+        </div>
+        <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+        <input id="default-btn" type="file" hidden>
+        
+        
+        
+        <div class="description">
+            <small>things to repair</small>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button onclick="alert()">Alert</button>
+
+
+    </div>
+
+</section>
+
+<!-- contact info section ends -->
+
+
+
+<!-- custom js file link  -->
+<script src="./js/script.js"></script>
+
+</body>
+</html>
